@@ -30,8 +30,8 @@ class CarFactory:
             print("This car type is not defined")
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     fb = CarFactory()
-    fb.show_cart_type('Sedan')
-    fb.show_cart_type('Hatchback')
-    fb.show_cart_type('SUV')
+    fb.show_cart_type("Sedan")
+    fb.show_cart_type("Hatchback")
+    fb.show_cart_type("SUV")

@@ -3,9 +3,9 @@ class Singleton:
 
     def __init__(self) -> None:
         if self.__instance is None:
-            print('No instance')
+            print("No instance")
         else:
-            print(f'Instace: {id(self.get_instance())}')
+            print(f"Instace: {id(self.get_instance())}")
 
     @classmethod
     def get_instance(cls):
@@ -16,6 +16,6 @@ class Singleton:
 
 c1 = Singleton()  # No instance yet
 
-print(f'New instance: {Singleton.get_instance()}')  # Creating new instance
+print(f"New instance: {Singleton.get_instance()}")  # Creating new instance
 
 c2 = Singleton()  # should have an instance
